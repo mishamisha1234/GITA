@@ -1,0 +1,39 @@
+#footer {
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 1px darkgray;
+  margin: 20px 50px 0px 50px;
+}
+
+#footer:hover {
+  background-color: lightblue;
+  color: darkblue;
+  box-shadow: 5px 5px 5px lightblue;
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+a:hover,
+button:hover {
+  box-shadow: 5px 5px 5px 5px gray;
+  color: rgb(247, 247, 155) !important;
+  border: black solid 2px !important;
+}
+
+#buttons {
+  border: solid 1px darkgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  width: 150px;
+  margin: 5px;
+}
+
+body {
+  background-color: beige !important;
+  margin: 20px;
+}
