@@ -31,6 +31,24 @@
 
     <div id="buttons"></div>
 
+    <table id="ProductsTable" class="table table-bordered table-striped">
+      <tr>
+        <th>Product Name</th>
+        <th>Product Category</th>
+        <th>Price</th>
+        <th>Orders Count</th>
+      </tr>
+
+      <tr id="productRow">
+        <td>Oranges</td>
+        <td>Fruits</td>
+        <td contenteditable>2.5</td>
+        <td><span contenteditable>200</span> kg.</td>
+      </tr>
+    </table>
+
+    <button onclick="addNewProduct()" class="btn btn-primary">Add New</button>
+
     <footer id="footer" contenteditable>Georgia developers &copy</footer>
   </body>
 </html>

@@ -8,6 +8,13 @@ function hide(b) {
   b.hidden = true;
 }
 
+function addNewProduct() {
+  var copy = document.getElementById("productRow").cloneNode(true);
+  var table = document.getElementById("ProductsTable");
+
+  table.appendChild(copy);
+}
+
 function createButtons() {
   console.log("createButtons was clicked");
   var buttonText = "New Button " + counter++;
